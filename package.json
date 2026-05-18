@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-pypi-stats",
+  "version": "0.1.0",
+  "description": "PyPIStats.org — PyPI download statistics",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "pypi-stats"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-pypi-stats"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
