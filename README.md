@@ -1,13 +1,20 @@
-# mcp-pypi-stats
+# @pipeworx/pypi-stats
 
-PyPI Stats MCP.
+[PyPIStats.org](https://pypistats.org) MCP — PyPI download statistics over the last 180 days. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
-| Tool | Description |
-|------|-------------|
+- `recent(package, period?)` — total downloads in recent period (day | week | month)
+- `overall(package, mirrors?)` — daily downloads timeseries
+- `python_major(package)` — by Python major version
+- `python_minor(package)` — by Python minor version
+- `system(package)` — by OS / system
+
+## Data source
+
+`https://pypistats.org/api/packages/<name>/...`
 
 ## Quick Start
 
@@ -23,7 +30,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -47,7 +54,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
