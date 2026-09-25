@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/pypi-stats",
   "title": "Pypi Stats",
-  "description": "PyPIStats.org — PyPI download statistics",
-  "version": "0.1.0",
+  "description": "PyPI Stats MCP.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/pypi-stats",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-pypi-stats",
