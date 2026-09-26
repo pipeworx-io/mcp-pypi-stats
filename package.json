@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-pypi-stats",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "PyPI Stats MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-867898cc1c3c0c6764d0c1cd893e14bfa3de8078881d252e63b86cf6783cd58e",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-7bd19fa05b9c8a513c87fba0c2d2a9c144f6584aaffbd8c497e92db6959c0ab0",
+    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
   }
 }
